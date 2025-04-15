@@ -1,4 +1,4 @@
-.Heading{
+ .Heading{
     font-family:monospace;
     text-align: left;
     font-size: 40px;
@@ -6,4 +6,20 @@
 .ResumeTitle{
     font-family: Trebuchet;
     margin: 0px;
+    font-weight: 900;
 }
+.ContactInfo{
+    font-size: 23px;
+    font-weight: 100;  
+}
+a:link{
+    color: crimson;
+}
+a:visited{
+    color: rgb(0, 209, 80); 
+}
+a:hover{
+    color: blue;
+}
+
+
