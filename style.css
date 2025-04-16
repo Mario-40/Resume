@@ -1,16 +1,19 @@
  .Heading{
     font-family:monospace;
-    text-align: left;
+    text-align: center;
     font-size: 40px;
+    font-weight: 10;
 }
 .ResumeTitle{
     font-family: Trebuchet;
     margin: 0px;
-    font-weight: 900;
+    font-weight: 10;
+    text-align: center;
 }
 .ContactInfo{
     font-size: 23px;
-    font-weight: 100;  
+    font-weight: 10; 
+     
 }
 a:link{
     color: crimson;
@@ -20,6 +23,15 @@ a:visited{
 }
 a:hover{
     color: blue;
+}
+h4{
+    font-weight: 10;
+    font-size: large;
+    margin-right: 0;
+}
+.About{
+    font-weight: 10;
+    text-align: center;
 }
 
 
