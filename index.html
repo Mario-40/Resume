@@ -1,21 +1,76 @@
-<html>
+<html> 
     <head>
         <link href="style.css" rel="stylesheet">
         <title>Av H.'s Resume</title>
-        <link rel="stylesheets" href="https://mario-40.github.io/Resume/">
+        <link rel="stylesheet" href="https://mario-40.github.io/Resume/">
+        <!-- Font Awesome for icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <h1 class="Heading">Av Hundal</h1>
-            <div>
-                <hr>
-                <h3 class="ResumeTitle">Resume</h3>
-                <hr>
-            </div>
-        <h2 class="ContactInfo">Contact Me</h2>
-            <h4>Email: <a href="https://mail.google.com/mail/u/0/?hl=en#sent?compose=new" target="_blank">sleepy@gmail.com</a></h4>
-            <h4>Phone: 666-666-6666</h4>
-            <h4>Github: <a href="https://github.com/" target="_blank"> Mario-40</a></h4>
-        <h2 class="About">About me</h2>
-    </body>
+        <div>
+            <hr>
+            <h3 class="ResumeTitle"><i class="fas fa-file-alt"></i> Resume</h3>
+            <hr>
+        </div>
 
+        <!-- Two-column layout: Contact Me + Skills -->
+        <div class="two-column-section">
+            <div class="column">
+                <h2 class="ContactInfo"><i class="fas fa-address-book"></i> Contact Me</h2>
+                <h4><i class="fas fa-envelope"></i> Email: 
+                    <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">Bob@gmail.com</a>
+                </h4>
+                <h4><i class="fas fa-phone"></i> Phone: 666-666-6666</h4>
+                <h4><i class="fab fa-github"></i> GitHub: 
+                    <a href="https://github.com/" target="_blank">Mario-40</a>
+                </h4>
+            </div>
+
+            <div class="column">
+                <h2 class="Skills"><i class="fas fa-tools"></i> Skills</h2>
+                <ul class="SkillsList">
+                    <li><i class="fas fa-code"></i> HTML, CSS, JavaScript</li>
+                    <li><i class="fas fa-code-branch"></i> GitHub</li>
+                    <li><i class="fas fa-lightbulb"></i> Problem Solving & Critical Thinking</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Two-column layout: About Me + Education -->
+        <div class="two-column-section">
+            <div class="column">
+                <h2 class="About"><i class="fas fa-user"></i> About Me</h2>
+                <p class="AboutDescription">
+                    I am a passionate and dedicated individual with a strong interest in learning and growing.
+                    I enjoy solving problems and working with others to create project that will benefit everyone.
+                </p>
+            </div>
+
+            <div class="column">
+                <h2 class="Education"><i class="fas fa-graduation-cap"></i> Education</h2>
+                <h4>Seaquam Secondary</h4>
+                <p>Up to the grade 10 level of mandatory classes and Robotics and Computer Studies.<br>
+                Graduation Year: 2027</p>
+            </div>
+        </div>
+
+        <!-- Experience centered -->
+        <div class="experience-section">
+            <h2 class="Experience"><i class="fas fa-briefcase"></i> Experience</h2>
+            <h4><i class="fas fa-laptop-code"></i>Computer Studies</h4>
+            <p>September 2024 – June 2025</p>
+            <ul class="ExperienceList">
+                <li><i class="fas fa-check"></i> Developed a resume using Html and CSS</li>
+                <li><i class="fas fa-check"></i> Tried out new features such as icons and flexboxes.</li>
+                <li><i class="fas fa-check"></i> A little bit of C++ from Robotics</li> 
+            </ul>
+        </div>
+
+        <footer>
+            <hr>
+            <p>2025 Av Hundal</p>
+        </footer>
+    </body>
 </html>

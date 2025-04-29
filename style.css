@@ -1,37 +1,101 @@
- .Heading{
-    font-family:monospace;
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 40px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1.Heading {
     text-align: center;
-    font-size: 40px;
-    font-weight: 10;
+    font-size: 3em;
+    margin-bottom: 0;
 }
-.ResumeTitle{
-    font-family: Trebuchet;
-    margin: 0px;
-    font-weight: 10;
+
+.ResumeTitle {
     text-align: center;
+    font-size: 2em;
+    margin-top: 5px;
 }
-.ContactInfo{
-    font-size: 23px;
-    font-weight: 10; 
-     
+
+hr {
+    border: 1px solid #ccc;
+    margin: 20px 0;
 }
-a:link{
-    color: crimson;
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-top: 30px;
 }
-a:visited{
-    color: rgb(0, 209, 80); 
+
+h4 {
+    margin: 10px 0;
+    font-weight: normal;
 }
-a:hover{
-    color: blue;
+
+p, ul {
+    margin: 10px 0 20px 0;
+    line-height: 1.6;
 }
-h4{
-    font-weight: 10;
-    font-size: large;
-    margin-right: 0;
+
+a {
+    color: #3498db;
+    text-decoration: none;
 }
-.About{
-    font-weight: 10;
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #f85656;
+}
+
+.SkillsList, .ExperienceList {
+    margin-left: 20px;
+}
+
+/* Two-column layout */
+.two-column-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    min-width: 280px;
+}
+
+/* Experience section centered */
+.experience-section {
     text-align: center;
+    margin-top: 50px;
 }
+
+/* About me center text in column */
+.AboutDescription {
+    text-align: left;
+}
+
+/* Icon styling */
+i {
+    color: #3498db;
+    margin-right: 8px;
+}
+
+i:hover {
+    color: #2980b9;
+}
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 40px;
+}
+
+
 
 
